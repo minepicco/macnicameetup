@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'wget http://localhost'
-                sh 'curl http://localhost'
+                #sh 'wget http://localhost'
+                #sh 'curl http://localhost'
             }
         }
     }
