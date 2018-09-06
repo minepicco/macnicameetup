@@ -1,4 +1,4 @@
-from nginx
+FROM nginx
 
 RUN apt-get update -y && apt-get install -y wget
 RUN wget https://raw.githubusercontent.com/minepicco/container-tech/master/index.html
